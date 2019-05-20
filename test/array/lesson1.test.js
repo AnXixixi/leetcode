@@ -1,10 +1,8 @@
-import telComb from '../../code/array/lesson1'
+import answer from '../../code/array/lesson1'
 
-test('telComb:23', () => {
-  expect(telComb('23')).toEqual(['ad', 'ae', 'af', 'bd', 'be', 'bf', 'cd', 'ce', 'cf'])
-})
-test('telComb:234', () => {
-  expect(telComb('234')).toEqual([
+test('phone number answer is', () => {
+  expect(answer('23')).toEqual(['ad', 'ae', 'af', 'bd', 'be', 'bf', 'cd', 'ce', 'cf'])
+  expect(answer('234')).toEqual([
     'adg', 'adh', 'adi',
     'aeg', 'aeh', 'aei',
     'afg', 'afh', 'afi',
@@ -13,6 +11,7 @@ test('telComb:234', () => {
     'bfg', 'bfh', 'bfi',
     'cdg', 'cdh', 'cdi',
     'ceg', 'ceh', 'cei',
-    'cfg', 'cfh', 'cfi'
-  ])
+    'cfg', 'cfh', 'cfi'])
 })
+
+// abc def ghi

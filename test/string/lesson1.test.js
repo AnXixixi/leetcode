@@ -1,5 +1,5 @@
-import revertByWorld from '../../code/string/lesson1'
+import reverseWords from '../../code/string/lesson1'
 
-test('revertByWorld:Let\'s take LeetCode contest', () => {
-  expect(revertByWorld("Let's take LeetCode contest")).toBe("s'teL ekat edoCteeL tsetnoc")
+test(`input: "Let's take LeetCode contest" output "s'teL ekat edoCteeL tsetnoc"`, () => {
+  expect(reverseWords("Let's take LeetCode contest")).toBe("s'teL ekat edoCteeL tsetnoc")
 })
